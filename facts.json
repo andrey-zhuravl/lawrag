@@ -1,177 +1,4834 @@
 [
-  {"id":"fact:001","subj":"term:ru_federation","pred":"pred:is","obj":"value:демократическое федеративное правовое государство с республиканской формой правления","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st1:a1"},
-  {"id":"fact:002","subj":"term:ru_federation","pred":"pred:equivalent","obj":"value:Россия","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st1:a2"},
-  {"id":"fact:003","subj":"term:human_dignity","pred":"pred:is","obj":"value:высшая ценность","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st2:a1"},
-  {"id":"fact:004","subj":"term:ru_federation","pred":"pred:must","obj":"value:признавать соблюдать и защищать права и свободы человека и гражданина","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st2:a2"},
-  {"id":"fact:005","subj":"term:ru_people","pred":"pred:is","obj":"value:носитель суверенитета и единственный источник власти","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st3:a1"},
-  {"id":"fact:006","subj":"term:ru_people","pred":"pred:has_right","obj":"value:осуществлять власть непосредственно","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st3:a2"},
-  {"id":"fact:007","subj":"term:ru_people","pred":"pred:has_right","obj":"value:осуществлять власть через органы государственной власти и органы местного самоуправления","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st3:a2"},
-  {"id":"fact:008","subj":"term:referendum","pred":"pred:is","obj":"value:высшее непосредственное выражение власти народа","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st3:a3"},
-  {"id":"fact:009","subj":"term:free_elections","pred":"pred:is","obj":"value:высшее непосредственное выражение власти народа","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st3:a3"},
-  {"id":"fact:010","subj":"term:every_person","pred":"pred:forbidden","obj":"value:присваивать власть в Российской Федерации","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl1:st3:a4"},
-  {"id":"fact:011","subj":"term:ru_federation","pred":"pred:ensures","obj":"value:целостность и неприкосновенность своей территории","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st4:a3"},
-  {"id":"fact:012","subj":"term:subject_rf","pred":"pred:is","obj":"value:равноправный субъект Российской Федерации","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st5:a1"},
-  {"id":"fact:013","subj":"term:subject_rf","pred":"pred:has_right","obj":"value:иметь собственную конституцию или устав и законодательство","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st5:a2"},
-  {"id":"fact:014","subj":"term:ru_federation","pred":"pred:recognizes","obj":"value:равноправие субъектов во взаимоотношениях с федеральными органами власти","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st5:a4"},
-  {"id":"fact:015","subj":"term:citizenship_rf","pred":"pred:is","obj":"value:единым и равным независимо от оснований приобретения","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st6:a1"},
-  {"id":"fact:016","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:обладать на территории РФ всеми правами и свободами","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st6:a2"},
-  {"id":"fact:017","subj":"term:citizen_rf","pred":"pred:forbidden","obj":"value:лишать гражданства или права изменить его","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl1:st6:a3"},
-  {"id":"fact:018","subj":"term:ru_federation","pred":"pred:is","obj":"value:социальное государство","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st7:a1"},
-  {"id":"fact:019","subj":"term:ru_federation","pred":"pred:must","obj":"value:поддерживать труд, здоровье, семью и социальную защиту","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st7:a2"},
-  {"id":"fact:020","subj":"term:ru_federation","pred":"pred:guarantees","obj":"value:единство экономического пространства и свободу экономической деятельности","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st8:a1"},
-  {"id":"fact:021","subj":"term:ru_federation","pred":"pred:recognizes","obj":"value:равную защиту частной, государственной, муниципальной и иных форм собственности","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st8:a2"},
-  {"id":"fact:022","subj":"term:environment","pred":"pred:ensures","obj":"value:использование и охрану как основы жизни народов","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st9:a1"},
-  {"id":"fact:023","subj":"term:private_property","pred":"pred:has_right","obj":"value:распространяться на землю и природные ресурсы","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st9:a2"},
-  {"id":"fact:024","subj":"term:state_power","pred":"pred:is","obj":"value:разделенной на законодательную, исполнительную и судебную","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st10:a1"},
-  {"id":"fact:025","subj":"term:legislative_power","pred":"pred:must","obj":"value:быть самостоятельной","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st10:a2"},
-  {"id":"fact:026","subj":"term:executive_power","pred":"pred:must","obj":"value:быть самостоятельной","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st10:a2"},
-  {"id":"fact:027","subj":"term:judicial_power","pred":"pred:must","obj":"value:быть самостоятельной","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st10:a2"},
-  {"id":"fact:028","subj":"term:ru_federation","pred":"pred:recognizes","obj":"value:Президент, Федеральное Собрание, Правительство и суды как органы государственной власти","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st11:a1"},
-  {"id":"fact:029","subj":"term:state_bodies_subjects","pred":"pred:has_right","obj":"value:осуществлять государственную власть в субъектах","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st11:a2"},
-  {"id":"fact:030","subj":"term:local_self_gov","pred":"pred:recognizes","obj":"value:гарантированное и самостоятельное в пределах полномочий","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st12:a1"},
-  {"id":"fact:031","subj":"term:local_government_bodies","pred":"pred:cannot_be","obj":"value:входить в систему органов государственной власти","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl1:st12:a3"},
-  {"id":"fact:032","subj":"term:ru_federation","pred":"pred:recognizes","obj":"value:идеологическое и политическое многообразие","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st13:a1"},
-  {"id":"fact:033","subj":"term:ideology","pred":"pred:cannot_be","obj":"value:установлена как государственная или обязательная","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl1:st13:a2"},
-  {"id":"fact:034","subj":"term:public_association","pred":"pred:recognizes","obj":"value:равенство перед законом","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st13:a4"},
-  {"id":"fact:035","subj":"term:public_association","pred":"pred:forbidden","obj":"value:создавать и действовать с целями насильственного изменения строя, нарушения целостности, подрыва безопасности, создания вооруженных формирований и разжигания розни","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl1:st13:a5"},
-  {"id":"fact:036","subj":"term:ru_federation","pred":"pred:is","obj":"value:светское государство","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st14:a1"},
-  {"id":"fact:037","subj":"term:ideology","pred":"pred:cannot_be","obj":"value:религией установленной как государственная","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl1:st14:a1"},
-  {"id":"fact:038","subj":"term:constitution_rf","pred":"pred:guarantees","obj":"value:высшую юридическую силу и прямое действие","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a1"},
-  {"id":"fact:039","subj":"term:constitution_rf","pred":"pred:applies_to","obj":"term:ru_federation","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a1"},
-  {"id":"fact:040","subj":"term:state_bodies_rf","pred":"pred:must","obj":"value:соблюдать Конституцию и законы","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a2"},
-  {"id":"fact:041","subj":"term:local_government_bodies","pred":"pred:must","obj":"value:соблюдать Конституцию и законы","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a2"},
-  {"id":"fact:042","subj":"term:every_person","pred":"pred:must","obj":"value:соблюдать Конституцию и законы","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a2"},
-  {"id":"fact:043","subj":"term:federal_law","pred":"pred:must","obj":"value:быть официально опубликованным для применения","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a3"},
-  {"id":"fact:044","subj":"term:international_treaty_rf","pred":"pred:has_right","obj":"value:иметь приоритет при отличии от закона","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl1:st15:a4"},
-  {"id":"fact:045","subj":"term:constitution_rf","pred":"pred:recognizes","obj":"value:неизменность основ конституционного строя вне установленного порядка","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl1:st16:a1"},
-  {"id":"fact:046","subj":"term:every_person","pred":"pred:has_right","obj":"value:права и свободы согласно международным принципам и Конституции","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st17:a1"},
-  {"id":"fact:047","subj":"term:every_person","pred":"pred:has_right","obj":"value:основные права и свободы от рождения","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st17:a2"},
-  {"id":"fact:048","subj":"term:every_person","pred":"pred:must","obj":"value:осуществлять права не нарушая права других","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st17:a3"},
-  {"id":"fact:049","subj":"term:every_person","pred":"pred:has_right","obj":"value:на непосредственное действие прав и свобод","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st18:a1"},
-  {"id":"fact:050","subj":"term:every_person","pred":"pred:has_right","obj":"value:равенство перед законом и судом","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st19:a1"},
-  {"id":"fact:051","subj":"term:ru_federation","pred":"pred:must","obj":"value:гарантировать равенство прав вне зависимости от пола, расы, национальности, языка, происхождения и иных обстоятельств","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st19:a2"},
-  {"id":"fact:052","subj":"term:every_person","pred":"pred:forbidden","obj":"value:ограничивать права по признакам социальной, расовой, национальной, языковой или религиозной принадлежности","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st19:a2"},
-  {"id":"fact:053","subj":"term:every_person","pred":"pred:has_right","obj":"value:равные права и возможности независимо от пола","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st19:a3"},
-  {"id":"fact:054","subj":"term:every_person","pred":"pred:has_right","obj":"value:на жизнь","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st20:a1"},
-  {"id":"fact:055","subj":"term:ru_federation","pred":"pred:may_replace","obj":"value:смертную казнь","qualifiers":{"conds":["устанавливается федеральным законом как исключительная мера за особо тяжкие преступления против жизни","при предоставлении обвиняемому права на суд с участием присяжных"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st20:a2"},
-  {"id":"fact:056","subj":"term:state_bodies_rf","pred":"pred:must","obj":"value:охранять достоинство личности","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st21:a1"},
-  {"id":"fact:057","subj":"term:every_person","pred":"pred:forbidden","obj":"value:подвергать пыткам, насилию, жестокому или унижающему обращению","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st21:a2"},
-  {"id":"fact:058","subj":"term:every_person","pred":"pred:forbidden","obj":"value:подвергать медицинским, научным или иным опытам без добровольного согласия","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st21:a2"},
-  {"id":"fact:059","subj":"term:every_person","pred":"pred:has_right","obj":"value:на свободу и личную неприкосновенность","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st22:a1"},
-  {"id":"fact:060","subj":"term:state_bodies_rf","pred":"pred:must","obj":"value:производить арест и содержание под стражей только по судебному решению","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st22:a2"},
-  {"id":"fact:061","subj":"term:every_person","pred":"pred:has_right","obj":"value:на неприкосновенность частной жизни, личную и семейную тайну, защиту чести и доброго имени","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st23:a1"},
-  {"id":"fact:062","subj":"term:every_person","pred":"pred:has_right","obj":"value:на тайну переписки, телефонных переговоров, почтовых, телеграфных и иных сообщений","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st23:a2"},
-  {"id":"fact:063","subj":"term:every_person","pred":"pred:forbidden","obj":"value:собирать, хранить, использовать и распространять информацию о частной жизни без согласия","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st24:a1"},
-  {"id":"fact:064","subj":"term:state_bodies_rf","pred":"pred:must","obj":"value:обеспечивать доступ к документам, затрагивающим права и свободы","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st24:a2"},
-  {"id":"fact:065","subj":"term:every_person","pred":"pred:has_right","obj":"value:на неприкосновенность жилища","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st25:a1"},
-  {"id":"fact:066","subj":"term:every_person","pred":"pred:forbidden","obj":"value:проникать в жилище против воли проживающих иначе как по федеральному закону или судебному решению","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st25:a2"},
-  {"id":"fact:067","subj":"term:every_person","pred":"pred:has_right","obj":"value:определять и указывать свою национальную принадлежность","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st26:a1"},
-  {"id":"fact:068","subj":"term:every_person","pred":"pred:forbidden","obj":"value:принуждать к определению и указанию национальной принадлежности","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st26:a1"},
-  {"id":"fact:069","subj":"term:every_person","pred":"pred:has_right","obj":"value:пользоваться родным языком и свободно выбирать язык общения, воспитания, обучения и творчества","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st26:a2"},
-  {"id":"fact:070","subj":"term:every_person_in_rf","pred":"pred:has_right","obj":"value:свободно передвигаться, выбирать место пребывания и жительства","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st27:a1"},
-  {"id":"fact:071","subj":"term:every_person","pred":"pred:has_right","obj":"value:свободно выезжать за пределы Российской Федерации","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st27:a2"},
-  {"id":"fact:072","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:беспрепятственно возвращаться в Российскую Федерацию","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st27:a2"},
-  {"id":"fact:073","subj":"term:every_person","pred":"pred:has_right","obj":"value:свободу совести и вероисповедания","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st28:a1"},
-  {"id":"fact:074","subj":"term:every_person","pred":"pred:has_right","obj":"term:freedom_of_expression","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a1"},
-  {"id":"fact:075","subj":"term:every_person","pred":"pred:forbidden","obj":"value:пропагандировать социальную, расовую, национальную или религиозную ненависть и вражду","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a2"},
-  {"id":"fact:076","subj":"term:every_person","pred":"pred:forbidden","obj":"value:пропагандировать социальное, расовое, национальное, религиозное или языковое превосходство","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a2"},
-  {"id":"fact:077","subj":"term:every_person","pred":"pred:has_right","obj":"value:не быть принужденным к выражению мнений или отказу от них","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a3"},
-  {"id":"fact:078","subj":"term:every_person","pred":"pred:has_right","obj":"value:свободно искать, получать, передавать, производить и распространять информацию законными способами","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a4"},
-  {"id":"fact:079","subj":"term:state_secrets","pred":"pred:establishes","obj":"value:перечень сведений определяется федеральным законом","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a4"},
-  {"id":"fact:080","subj":"term:mass_media","pred":"pred:guarantees","obj":"value:свободу массовой информации и запрет цензуры","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st29:a5"},
-  {"id":"fact:081","subj":"term:every_person","pred":"pred:has_right","obj":"value:на объединение и создание профессиональных союзов","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st30:a1"},
-  {"id":"fact:082","subj":"term:public_association","pred":"pred:guarantees","obj":"value:свободу деятельности","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st30:a1"},
-  {"id":"fact:083","subj":"term:every_person","pred":"pred:forbidden","obj":"value:принуждать к вступлению или пребыванию в объединении","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st30:a2"},
-  {"id":"fact:084","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:собираться мирно, без оружия и проводить публичные мероприятия","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st31:a1"},
-  {"id":"fact:085","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:участвовать в управлении делами государства непосредственно и через представителей","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st32:a1"},
-  {"id":"fact:086","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:избирать и быть избранными в органы государственной власти и местного самоуправления и участвовать в референдуме","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st32:a2"},
-  {"id":"fact:087","subj":"term:citizen_rf","pred":"pred:cannot_be","obj":"value:избирать и быть избранными при признании недееспособными или отбывании наказания в местах лишения свободы","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st32:a3"},
-  {"id":"fact:088","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:равный доступ к государственной службе","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st32:a4"},
-  {"id":"fact:089","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:участвовать в отправлении правосудия","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st32:a5"},
-  {"id":"fact:090","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:обращаться лично, направлять индивидуальные и коллективные обращения в государственные органы и органы местного самоуправления","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st33:a1"},
-  {"id":"fact:091","subj":"term:every_person","pred":"pred:has_right","obj":"value:свободно использовать способности и имущество для предпринимательской и иной не запрещенной законом экономической деятельности","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st34:a1"},
-  {"id":"fact:092","subj":"term:every_person","pred":"pred:forbidden","obj":"value:осуществлять экономическую деятельность, направленную на монополизацию и недобросовестную конкуренцию","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st34:a2"},
-  {"id":"fact:093","subj":"term:property_right","pred":"pred:guarantees","obj":"value:охрану законом","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st35:a1"},
-  {"id":"fact:094","subj":"term:every_person","pred":"pred:has_right","obj":"value:иметь имущество в собственности, владеть, пользоваться и распоряжаться им единолично или совместно","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st35:a2"},
-  {"id":"fact:095","subj":"term:every_person","pred":"pred:forbidden","obj":"value:лишать имущества иначе как по решению суда","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st35:a3"},
-  {"id":"fact:096","subj":"term:ru_federation","pred":"pred:must","obj":"value:производить принудительное отчуждение имущества для государственных нужд только при условии предварительного и равноценного возмещения","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st35:a3"},
-  {"id":"fact:097","subj":"term:property_right","pred":"pred:guarantees","obj":"value:право наследования","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st35:a4"},
-  {"id":"fact:098","subj":"term:every_person","pred":"pred:has_right","obj":"value:иметь в частной собственности землю","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st36:a1"},
-  {"id":"fact:099","subj":"term:every_person","pred":"pred:must","obj":"value:осуществлять владение, пользование и распоряжение землей без ущерба окружающей среде и правам других","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st36:a2"},
-  {"id":"fact:100","subj":"term:federal_law","pred":"pred:establishes","obj":"value:условия и порядок пользования землей","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st36:a3"},
-  {"id":"fact:101","subj":"term:labour","pred":"pred:is","obj":"value:свободным","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a1"},
-  {"id":"fact:102","subj":"term:every_person","pred":"pred:has_right","obj":"value:свободно распоряжаться своими способностями к труду, выбирать род деятельности и профессию","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a1"},
-  {"id":"fact:103","subj":"term:every_person","pred":"pred:forbidden","obj":"value:принудительный труд","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a2"},
-  {"id":"fact:104","subj":"term:every_person","pred":"pred:has_right","obj":"value:на труд в условиях безопасности и гигиены, на вознаграждение без дискриминации и не ниже минимального размера оплаты труда","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a3"},
-  {"id":"fact:105","subj":"term:every_person","pred":"pred:has_right","obj":"value:на защиту от безработицы","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a3"},
-  {"id":"fact:106","subj":"term:every_person","pred":"pred:has_right","obj":"value:на индивидуальные и коллективные трудовые споры и забастовку","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a4"},
-  {"id":"fact:107","subj":"term:every_person","pred":"pred:has_right","obj":"value:на отдых, включая установленное рабочее время, выходные, праздничные дни и оплачиваемый ежегодный отпуск","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st37:a5"},
-  {"id":"fact:108","subj":"term:family","pred":"pred:guarantees","obj":"value:защиту материнства и детства","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st38:a1"},
-  {"id":"fact:109","subj":"term:every_person","pred":"pred:must","obj":"value:родители обязаны заботиться о детях и их воспитании","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st38:a2"},
-  {"id":"fact:110","subj":"term:every_person","pred":"pred:must","obj":"value:трудоспособные дети обязаны заботиться о нетрудоспособных родителях","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st38:a3"},
-  {"id":"fact:111","subj":"term:every_person","pred":"pred:has_right","obj":"value:на социальное обеспечение по возрасту, болезни, инвалидности, потере кормильца, воспитанию детей и в иных случаях","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st39:a1"},
-  {"id":"fact:112","subj":"term:federal_law","pred":"pred:establishes","obj":"value:государственные пенсии и социальные пособия","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st39:a2"},
-  {"id":"fact:113","subj":"term:ru_federation","pred":"pred:guarantees","obj":"value:поощрение добровольного социального страхования и благотворительности","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st39:a3"},
-  {"id":"fact:114","subj":"term:every_person","pred":"pred:has_right","obj":"value:на жилище и защиту от произвольного лишения жилища","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st40:a1"},
-  {"id":"fact:115","subj":"term:state_bodies_rf","pred":"pred:must","obj":"value:поощрять жилищное строительство и создавать условия для осуществления права на жилище","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st40:a2"},
-  {"id":"fact:116","subj":"term:ru_federation","pred":"pred:must","obj":"value:предоставлять жилище малоимущим и иным указанным в законе гражданам бесплатно или за доступную плату","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st40:a3"},
-  {"id":"fact:117","subj":"term:every_person","pred":"pred:has_right","obj":"value:на охрану здоровья и медицинскую помощь","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st41:a1"},
-  {"id":"fact:118","subj":"term:ru_federation","pred":"pred:provides","obj":"value:бесплатную медицинскую помощь в государственных и муниципальных учреждениях","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st41:a1"},
-  {"id":"fact:119","subj":"term:ru_federation","pred":"pred:establishes","obj":"value:финансирование программ охраны здоровья, развитие систем здравоохранения и поощрение деятельности по укреплению здоровья","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st41:a2"},
-  {"id":"fact:120","subj":"term:state_bodies_rf","pred":"pred:subject_to_liability","obj":"value:за сокрытие фактов, создающих угрозу для жизни и здоровья людей","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st41:a3"},
-  {"id":"fact:121","subj":"term:every_person","pred":"pred:has_right","obj":"value:на благоприятную окружающую среду, достоверную информацию о ее состоянии и возмещение ущерба от экологического правонарушения","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st42:a1"},
-  {"id":"fact:122","subj":"term:every_person","pred":"pred:has_right","obj":"value:на образование","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st43:a1"},
-  {"id":"fact:123","subj":"term:ru_federation","pred":"pred:guarantees","obj":"value:общедоступность и бесплатность дошкольного, основного общего и среднего профессионального образования в государственных и муниципальных учреждениях","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st43:a2"},
-  {"id":"fact:124","subj":"term:every_person","pred":"pred:has_right","obj":"value:бесплатно получить высшее образование на конкурсной основе в государственном или муниципальном учреждении","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st43:a3"},
-  {"id":"fact:125","subj":"term:every_person","pred":"pred:must","obj":"value:обеспечивать получение детьми основного общего образования","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st43:a4"},
-  {"id":"fact:126","subj":"term:ru_federation","pred":"pred:establishes","obj":"value:федеральные государственные образовательные стандарты и поддерживает различные формы образования и самообразования","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st43:a5"},
-  {"id":"fact:127","subj":"term:every_person","pred":"pred:has_right","obj":"value:на свободу литературного, художественного, научного, технического и других видов творчества и преподавания","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st44:a1"},
-  {"id":"fact:128","subj":"term:property_right","pred":"pred:guarantees","obj":"value:охрану интеллектуальной собственности","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st44:a1"},
-  {"id":"fact:129","subj":"term:every_person","pred":"pred:has_right","obj":"value:участвовать в культурной жизни, пользоваться учреждениями культуры и иметь доступ к культурным ценностям","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st44:a2"},
-  {"id":"fact:130","subj":"term:every_person","pred":"pred:must","obj":"value:заботиться о сохранении исторического и культурного наследия, беречь памятники истории и культуры","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st44:a3"},
-  {"id":"fact:131","subj":"term:ru_federation","pred":"pred:guarantees","obj":"value:государственную защиту прав и свобод человека и гражданина","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st45:a1"},
-  {"id":"fact:132","subj":"term:every_person","pred":"pred:has_right","obj":"value:защищать свои права всеми способами, не запрещенными законом","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st45:a2"},
-  {"id":"fact:133","subj":"term:every_person","pred":"pred:has_right","obj":"value:на судебную защиту прав и свобод","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st46:a1"},
-  {"id":"fact:134","subj":"term:every_person","pred":"pred:has_right","obj":"value:обжаловать решения и действия органов государственной власти, местного самоуправления, общественных объединений и должностных лиц в суд","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st46:a2"},
-  {"id":"fact:135","subj":"term:every_person","pred":"pred:has_right","obj":"value:обращаться в межгосударственные органы по защите прав и свобод после исчерпания внутренних средств","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st46:a3"},
-  {"id":"fact:136","subj":"term:every_person","pred":"pred:has_right","obj":"value:на рассмотрение дела в предусмотренном суде и у судьи, к подсудности которых оно относится","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st47:a1"},
-  {"id":"fact:137","subj":"term:every_person","pred":"pred:has_right","obj":"value:на суд с участием присяжных в случаях, предусмотренных федеральным законом","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st47:a2"},
-  {"id":"fact:138","subj":"term:every_person","pred":"pred:has_right","obj":"value:на получение квалифицированной юридической помощи","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st48:a1"},
-  {"id":"fact:139","subj":"term:ru_federation","pred":"pred:provides","obj":"value:бесплатную юридическую помощь в случаях, предусмотренных законом","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st48:a1"},
-  {"id":"fact:140","subj":"term:every_person","pred":"pred:has_right","obj":"value:пользоваться помощью адвоката с момента задержания, заключения под стражу или предъявления обвинения","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st48:a2"},
-  {"id":"fact:141","subj":"term:every_person","pred":"pred:has_right","obj":"value:считаться невиновным до доказательства вины и вступления приговора в силу","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st49:a1"},
-  {"id":"fact:142","subj":"term:every_person","pred":"pred:forbidden","obj":"value:обязанность доказывать свою невиновность","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st49:a2"},
-  {"id":"fact:143","subj":"term:every_person","pred":"pred:has_right","obj":"value:на толкование неустранимых сомнений в свою пользу","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st49:a3"},
-  {"id":"fact:144","subj":"term:every_person","pred":"pred:forbidden","obj":"value:быть повторно осужденным за одно и то же преступление","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st50:a1"},
-  {"id":"fact:145","subj":"term:ru_federation","pred":"pred:forbidden","obj":"value:использовать доказательства, полученные с нарушением федерального закона","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st50:a2"},
-  {"id":"fact:146","subj":"term:every_person","pred":"pred:has_right","obj":"value:на пересмотр приговора вышестоящим судом и право просить о помиловании или смягчении наказания","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st50:a3"},
-  {"id":"fact:147","subj":"term:every_person","pred":"pred:forbidden","obj":"value:свидетельствовать против себя, супруга и близких родственников","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st51:a1"},
-  {"id":"fact:148","subj":"term:federal_law","pred":"pred:may_replace","obj":"value:установление иных случаев освобождения от обязанности давать свидетельские показания","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st51:a2"},
-  {"id":"fact:149","subj":"term:ru_federation","pred":"pred:guarantees","obj":"value:охрану прав потерпевших от преступлений и злоупотреблений властью, доступ к правосудию и компенсацию ущерба","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st52:a1"},
-  {"id":"fact:150","subj":"term:every_person","pred":"pred:has_right","obj":"value:на возмещение государством вреда, причиненного незаконными действиями органов власти или их должностных лиц","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st53:a1"},
-  {"id":"fact:151","subj":"term:federal_law","pred":"pred:forbidden","obj":"value:обратную силу закона, устанавливающего или отягчающего ответственность","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st54:a1"},
-  {"id":"fact:152","subj":"term:every_person","pred":"pred:forbidden","obj":"value:нести ответственность за деяние, не признававшееся правонарушением","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st54:a2"},
-  {"id":"fact:153","subj":"term:federal_law","pred":"pred:must","obj":"value:применять более мягкий закон, принятый после правонарушения","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st54:a2"},
-  {"id":"fact:154","subj":"term:constitution_rf","pred":"pred:recognizes","obj":"value:перечисление прав не умаляет другие общепризнанные права","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st55:a1"},
-  {"id":"fact:155","subj":"term:federal_law","pred":"pred:forbidden","obj":"value:издавать законы, отменяющие или умаляющие права и свободы человека и гражданина","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st55:a2"},
-  {"id":"fact:156","subj":"term:ru_federation","pred":"pred:may_replace","obj":"value:ограничение прав и свобод федеральным законом","qualifiers":{"conds":["только в целях защиты основ конституционного строя, нравственности, здоровья, прав и законных интересов других лиц, обеспечения обороны и безопасности"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st55:a3"},
-  {"id":"fact:157","subj":"term:ru_federation","pred":"pred:may_replace","obj":"value:установление ограничений прав в условиях чрезвычайного положения","qualifiers":{"conds":["в соответствии с федеральным конституционным законом","с указанием пределов и срока действия"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st56:a1"},
-  {"id":"fact:158","subj":"term:ru_federation","pred":"pred:may_replace","obj":"value:введение чрезвычайного положения","qualifiers":{"conds":["при наличии обстоятельств и в порядке, установленных федеральным конституционным законом"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st56:a2"},
-  {"id":"fact:159","subj":"term:constitution_rf","pred":"pred:cannot_be","obj":"value:ограничивать права, указанные в статьях 20,21,23(ч.1),24,28,34(ч.1),40(ч.1),46-54","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st56:a3"},
-  {"id":"fact:160","subj":"term:every_person","pred":"pred:must","obj":"value:платить законно установленные налоги и сборы","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st57:a1"},
-  {"id":"fact:161","subj":"term:federal_law","pred":"pred:forbidden","obj":"value:обратную силу законов, устанавливающих новые налоги или ухудшающих положение налогоплательщиков","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st57:a2"},
-  {"id":"fact:162","subj":"term:every_person","pred":"pred:must","obj":"value:сохранять природу и окружающую среду, бережно относиться к природным богатствам","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st58:a1"},
-  {"id":"fact:163","subj":"term:citizen_rf","pred":"pred:must","obj":"value:защищать Отечество","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st59:a1"},
-  {"id":"fact:164","subj":"term:citizen_rf","pred":"pred:must","obj":"value:нести военную службу в соответствии с федеральным законом","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st59:a2"},
-  {"id":"fact:165","subj":"term:citizen_rf","pred":"pred:may_replace","obj":"value:военную службу альтернативной гражданской службой","qualifiers":{"conds":["убеждения или вероисповедание противоречит несению военной службы","иные случаи, установленные федеральным законом"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st59:a3"},
-  {"id":"fact:166","subj":"term:citizen_rf","pred":"pred:has_right","obj":"value:самостоятельно осуществлять права и обязанности с 18 лет","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st60:a1"},
-  {"id":"fact:167","subj":"term:citizen_rf","pred":"pred:cannot_be","obj":"value:выслан за пределы Российской Федерации или выдан другому государству","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st61:a1"},
-  {"id":"fact:168","subj":"term:ru_federation","pred":"pred:must","obj":"value:гарантировать гражданам защиту и покровительство за пределами страны","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st61:a2"},
-  {"id":"fact:169","subj":"term:citizen_rf","pred":"pred:may_replace","obj":"value:иметь гражданство иностранного государства","qualifiers":{"conds":["в соответствии с федеральным законом или международным договором"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st62:a1"},
-  {"id":"fact:170","subj":"term:citizen_rf","pred":"pred:recognizes","obj":"value:наличие иностранного гражданства не умаляет права и не освобождает от обязанностей, если иное не предусмотрено","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st62:a2"},
-  {"id":"fact:171","subj":"term:every_person","pred":"pred:has_right","obj":"value:иностранные граждане и лица без гражданства пользуются правами и несут обязанности наравне с гражданами, кроме случаев закона или договора","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st62:a3"},
-  {"id":"fact:172","subj":"term:ru_federation","pred":"pred:may_replace","obj":"value:предоставлять политическое убежище иностранным гражданам и лицам без гражданства","qualifiers":{"conds":["в соответствии с общепризнанными нормами международного права"],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st63:a1"},
-  {"id":"fact:173","subj":"term:ru_federation","pred":"pred:forbidden","obj":"value:выдавать другим государствам лиц, преследуемых за политические убеждения или действия, не признаваемые преступлением в РФ","qualifiers":{"conds":[],"exceptions":[],"modality":"forbidden","effective":{"from":null,"to":null}},"source":"KONST:gl2:st63:a2"},
-  {"id":"fact:174","subj":"term:ru_federation","pred":"pred:may_replace","obj":"value:выдачу обвиняемых и передачу осужденных по федеральному закону или международному договору","qualifiers":{"conds":[],"exceptions":[],"modality":"may","effective":{"from":null,"to":null}},"source":"KONST:gl2:st63:a2"},
-  {"id":"fact:175","subj":"term:constitution_rf","pred":"pred:recognizes","obj":"value:положения главы 2 как основы правового статуса личности и их неизменность вне установленного порядка","qualifiers":{"conds":[],"exceptions":[],"modality":"must","effective":{"from":null,"to":null}},"source":"KONST:gl2:st64:a1"}
+  {
+    "id": "fact:001",
+    "subj": "term:ru_federation",
+    "pred": "pred:is",
+    "obj": "value:демократическое федеративное правовое государство с республиканской формой правления",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st1:a1"
+  },
+  {
+    "id": "fact:002",
+    "subj": "term:ru_federation",
+    "pred": "pred:equivalent",
+    "obj": "value:Россия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st1:a2"
+  },
+  {
+    "id": "fact:003",
+    "subj": "term:human_dignity",
+    "pred": "pred:is",
+    "obj": "value:высшая ценность",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st2:a1"
+  },
+  {
+    "id": "fact:004",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:признавать соблюдать и защищать права и свободы человека и гражданина",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st2:a2"
+  },
+  {
+    "id": "fact:005",
+    "subj": "term:ru_people",
+    "pred": "pred:is",
+    "obj": "value:носитель суверенитета и единственный источник власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st3:a1"
+  },
+  {
+    "id": "fact:006",
+    "subj": "term:ru_people",
+    "pred": "pred:has_right",
+    "obj": "value:осуществлять власть непосредственно",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st3:a2"
+  },
+  {
+    "id": "fact:007",
+    "subj": "term:ru_people",
+    "pred": "pred:has_right",
+    "obj": "value:осуществлять власть через органы государственной власти и органы местного самоуправления",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st3:a2"
+  },
+  {
+    "id": "fact:008",
+    "subj": "term:referendum",
+    "pred": "pred:is",
+    "obj": "value:высшее непосредственное выражение власти народа",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st3:a3"
+  },
+  {
+    "id": "fact:009",
+    "subj": "term:free_elections",
+    "pred": "pred:is",
+    "obj": "value:высшее непосредственное выражение власти народа",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st3:a3"
+  },
+  {
+    "id": "fact:010",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:присваивать власть в Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st3:a4"
+  },
+  {
+    "id": "fact:011",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:целостность и неприкосновенность своей территории",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st4:a3"
+  },
+  {
+    "id": "fact:012",
+    "subj": "term:subject_rf",
+    "pred": "pred:is",
+    "obj": "value:равноправный субъект Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st5:a1"
+  },
+  {
+    "id": "fact:013",
+    "subj": "term:subject_rf",
+    "pred": "pred:has_right",
+    "obj": "value:иметь собственную конституцию или устав и законодательство",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st5:a2"
+  },
+  {
+    "id": "fact:014",
+    "subj": "term:ru_federation",
+    "pred": "pred:recognizes",
+    "obj": "value:равноправие субъектов во взаимоотношениях с федеральными органами власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st5:a4"
+  },
+  {
+    "id": "fact:015",
+    "subj": "term:citizenship_rf",
+    "pred": "pred:is",
+    "obj": "value:единым и равным независимо от оснований приобретения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st6:a1"
+  },
+  {
+    "id": "fact:016",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:обладать на территории РФ всеми правами и свободами",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st6:a2"
+  },
+  {
+    "id": "fact:017",
+    "subj": "term:citizen_rf",
+    "pred": "pred:forbidden",
+    "obj": "value:лишать гражданства или права изменить его",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st6:a3"
+  },
+  {
+    "id": "fact:018",
+    "subj": "term:ru_federation",
+    "pred": "pred:is",
+    "obj": "value:социальное государство",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st7:a1"
+  },
+  {
+    "id": "fact:019",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:поддерживать труд, здоровье, семью и социальную защиту",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st7:a2"
+  },
+  {
+    "id": "fact:020",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:единство экономического пространства и свободу экономической деятельности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st8:a1"
+  },
+  {
+    "id": "fact:021",
+    "subj": "term:ru_federation",
+    "pred": "pred:recognizes",
+    "obj": "value:равную защиту частной, государственной, муниципальной и иных форм собственности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st8:a2"
+  },
+  {
+    "id": "fact:022",
+    "subj": "term:environment",
+    "pred": "pred:ensures",
+    "obj": "value:использование и охрану как основы жизни народов",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st9:a1"
+  },
+  {
+    "id": "fact:023",
+    "subj": "term:private_property",
+    "pred": "pred:has_right",
+    "obj": "value:распространяться на землю и природные ресурсы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st9:a2"
+  },
+  {
+    "id": "fact:024",
+    "subj": "term:state_power",
+    "pred": "pred:is",
+    "obj": "value:разделенной на законодательную, исполнительную и судебную",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st10:a1"
+  },
+  {
+    "id": "fact:025",
+    "subj": "term:legislative_power",
+    "pred": "pred:must",
+    "obj": "value:быть самостоятельной",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st10:a2"
+  },
+  {
+    "id": "fact:026",
+    "subj": "term:executive_power",
+    "pred": "pred:must",
+    "obj": "value:быть самостоятельной",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st10:a2"
+  },
+  {
+    "id": "fact:027",
+    "subj": "term:judicial_power",
+    "pred": "pred:must",
+    "obj": "value:быть самостоятельной",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st10:a2"
+  },
+  {
+    "id": "fact:028",
+    "subj": "term:ru_federation",
+    "pred": "pred:recognizes",
+    "obj": "value:Президент, Федеральное Собрание, Правительство и суды как органы государственной власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st11:a1"
+  },
+  {
+    "id": "fact:029",
+    "subj": "term:state_bodies_subjects",
+    "pred": "pred:has_right",
+    "obj": "value:осуществлять государственную власть в субъектах",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st11:a2"
+  },
+  {
+    "id": "fact:030",
+    "subj": "term:local_self_gov",
+    "pred": "pred:recognizes",
+    "obj": "value:гарантированное и самостоятельное в пределах полномочий",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st12:a1"
+  },
+  {
+    "id": "fact:031",
+    "subj": "term:local_government_bodies",
+    "pred": "pred:cannot_be",
+    "obj": "value:входить в систему органов государственной власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st12:a3"
+  },
+  {
+    "id": "fact:032",
+    "subj": "term:ru_federation",
+    "pred": "pred:recognizes",
+    "obj": "value:идеологическое и политическое многообразие",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st13:a1"
+  },
+  {
+    "id": "fact:033",
+    "subj": "term:ideology",
+    "pred": "pred:cannot_be",
+    "obj": "value:установлена как государственная или обязательная",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st13:a2"
+  },
+  {
+    "id": "fact:034",
+    "subj": "term:public_association",
+    "pred": "pred:recognizes",
+    "obj": "value:равенство перед законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st13:a4"
+  },
+  {
+    "id": "fact:035",
+    "subj": "term:public_association",
+    "pred": "pred:forbidden",
+    "obj": "value:создавать и действовать с целями насильственного изменения строя, нарушения целостности, подрыва безопасности, создания вооруженных формирований и разжигания розни",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st13:a5"
+  },
+  {
+    "id": "fact:036",
+    "subj": "term:ru_federation",
+    "pred": "pred:is",
+    "obj": "value:светское государство",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st14:a1"
+  },
+  {
+    "id": "fact:037",
+    "subj": "term:ideology",
+    "pred": "pred:cannot_be",
+    "obj": "value:религией установленной как государственная",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st14:a1"
+  },
+  {
+    "id": "fact:038",
+    "subj": "term:constitution_rf",
+    "pred": "pred:guarantees",
+    "obj": "value:высшую юридическую силу и прямое действие",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a1"
+  },
+  {
+    "id": "fact:039",
+    "subj": "term:constitution_rf",
+    "pred": "pred:applies_to",
+    "obj": "term:ru_federation",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a1"
+  },
+  {
+    "id": "fact:040",
+    "subj": "term:state_bodies_rf",
+    "pred": "pred:must",
+    "obj": "value:соблюдать Конституцию и законы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a2"
+  },
+  {
+    "id": "fact:041",
+    "subj": "term:local_government_bodies",
+    "pred": "pred:must",
+    "obj": "value:соблюдать Конституцию и законы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a2"
+  },
+  {
+    "id": "fact:042",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:соблюдать Конституцию и законы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a2"
+  },
+  {
+    "id": "fact:043",
+    "subj": "term:federal_law",
+    "pred": "pred:must",
+    "obj": "value:быть официально опубликованным для применения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a3"
+  },
+  {
+    "id": "fact:044",
+    "subj": "term:international_treaty_rf",
+    "pred": "pred:has_right",
+    "obj": "value:иметь приоритет при отличии от закона",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st15:a4"
+  },
+  {
+    "id": "fact:045",
+    "subj": "term:constitution_rf",
+    "pred": "pred:recognizes",
+    "obj": "value:неизменность основ конституционного строя вне установленного порядка",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl1:st16:a1"
+  },
+  {
+    "id": "fact:046",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:права и свободы согласно международным принципам и Конституции",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st17:a1"
+  },
+  {
+    "id": "fact:047",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:основные права и свободы от рождения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st17:a2"
+  },
+  {
+    "id": "fact:048",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:осуществлять права не нарушая права других",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st17:a3"
+  },
+  {
+    "id": "fact:049",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на непосредственное действие прав и свобод",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st18:a1"
+  },
+  {
+    "id": "fact:050",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:равенство перед законом и судом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st19:a1"
+  },
+  {
+    "id": "fact:051",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:гарантировать равенство прав вне зависимости от пола, расы, национальности, языка, происхождения и иных обстоятельств",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st19:a2"
+  },
+  {
+    "id": "fact:052",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:ограничивать права по признакам социальной, расовой, национальной, языковой или религиозной принадлежности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st19:a2"
+  },
+  {
+    "id": "fact:053",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:равные права и возможности независимо от пола",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st19:a3"
+  },
+  {
+    "id": "fact:054",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на жизнь",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st20:a1"
+  },
+  {
+    "id": "fact:055",
+    "subj": "term:ru_federation",
+    "pred": "pred:may_replace",
+    "obj": "value:смертную казнь",
+    "qualifiers": {
+      "conds": [
+        "устанавливается федеральным законом как исключительная мера за особо тяжкие преступления против жизни",
+        "при предоставлении обвиняемому права на суд с участием присяжных"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st20:a2"
+  },
+  {
+    "id": "fact:056",
+    "subj": "term:state_bodies_rf",
+    "pred": "pred:must",
+    "obj": "value:охранять достоинство личности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st21:a1"
+  },
+  {
+    "id": "fact:057",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:подвергать пыткам, насилию, жестокому или унижающему обращению",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st21:a2"
+  },
+  {
+    "id": "fact:058",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:подвергать медицинским, научным или иным опытам без добровольного согласия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st21:a2"
+  },
+  {
+    "id": "fact:059",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на свободу и личную неприкосновенность",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st22:a1"
+  },
+  {
+    "id": "fact:060",
+    "subj": "term:state_bodies_rf",
+    "pred": "pred:must",
+    "obj": "value:производить арест и содержание под стражей только по судебному решению",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st22:a2"
+  },
+  {
+    "id": "fact:061",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на неприкосновенность частной жизни, личную и семейную тайну, защиту чести и доброго имени",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st23:a1"
+  },
+  {
+    "id": "fact:062",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на тайну переписки, телефонных переговоров, почтовых, телеграфных и иных сообщений",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st23:a2"
+  },
+  {
+    "id": "fact:063",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:собирать, хранить, использовать и распространять информацию о частной жизни без согласия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st24:a1"
+  },
+  {
+    "id": "fact:064",
+    "subj": "term:state_bodies_rf",
+    "pred": "pred:must",
+    "obj": "value:обеспечивать доступ к документам, затрагивающим права и свободы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st24:a2"
+  },
+  {
+    "id": "fact:065",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на неприкосновенность жилища",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st25:a1"
+  },
+  {
+    "id": "fact:066",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:проникать в жилище против воли проживающих иначе как по федеральному закону или судебному решению",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st25:a2"
+  },
+  {
+    "id": "fact:067",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:определять и указывать свою национальную принадлежность",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st26:a1"
+  },
+  {
+    "id": "fact:068",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:принуждать к определению и указанию национальной принадлежности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st26:a1"
+  },
+  {
+    "id": "fact:069",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:пользоваться родным языком и свободно выбирать язык общения, воспитания, обучения и творчества",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st26:a2"
+  },
+  {
+    "id": "fact:070",
+    "subj": "term:every_person_in_rf",
+    "pred": "pred:has_right",
+    "obj": "value:свободно передвигаться, выбирать место пребывания и жительства",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st27:a1"
+  },
+  {
+    "id": "fact:071",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:свободно выезжать за пределы Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st27:a2"
+  },
+  {
+    "id": "fact:072",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:беспрепятственно возвращаться в Российскую Федерацию",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st27:a2"
+  },
+  {
+    "id": "fact:073",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:свободу совести и вероисповедания",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st28:a1"
+  },
+  {
+    "id": "fact:074",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "term:freedom_of_expression",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a1"
+  },
+  {
+    "id": "fact:075",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:пропагандировать социальную, расовую, национальную или религиозную ненависть и вражду",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a2"
+  },
+  {
+    "id": "fact:076",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:пропагандировать социальное, расовое, национальное, религиозное или языковое превосходство",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a2"
+  },
+  {
+    "id": "fact:077",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:не быть принужденным к выражению мнений или отказу от них",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a3"
+  },
+  {
+    "id": "fact:078",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:свободно искать, получать, передавать, производить и распространять информацию законными способами",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a4"
+  },
+  {
+    "id": "fact:079",
+    "subj": "term:state_secrets",
+    "pred": "pred:establishes",
+    "obj": "value:перечень сведений определяется федеральным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a4"
+  },
+  {
+    "id": "fact:080",
+    "subj": "term:mass_media",
+    "pred": "pred:guarantees",
+    "obj": "value:свободу массовой информации и запрет цензуры",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st29:a5"
+  },
+  {
+    "id": "fact:081",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на объединение и создание профессиональных союзов",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st30:a1"
+  },
+  {
+    "id": "fact:082",
+    "subj": "term:public_association",
+    "pred": "pred:guarantees",
+    "obj": "value:свободу деятельности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st30:a1"
+  },
+  {
+    "id": "fact:083",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:принуждать к вступлению или пребыванию в объединении",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st30:a2"
+  },
+  {
+    "id": "fact:084",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:собираться мирно, без оружия и проводить публичные мероприятия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st31:a1"
+  },
+  {
+    "id": "fact:085",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:участвовать в управлении делами государства непосредственно и через представителей",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st32:a1"
+  },
+  {
+    "id": "fact:086",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:избирать и быть избранными в органы государственной власти и местного самоуправления и участвовать в референдуме",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st32:a2"
+  },
+  {
+    "id": "fact:087",
+    "subj": "term:citizen_rf",
+    "pred": "pred:cannot_be",
+    "obj": "value:избирать и быть избранными при признании недееспособными или отбывании наказания в местах лишения свободы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st32:a3"
+  },
+  {
+    "id": "fact:088",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:равный доступ к государственной службе",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st32:a4"
+  },
+  {
+    "id": "fact:089",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:участвовать в отправлении правосудия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st32:a5"
+  },
+  {
+    "id": "fact:090",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:обращаться лично, направлять индивидуальные и коллективные обращения в государственные органы и органы местного самоуправления",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st33:a1"
+  },
+  {
+    "id": "fact:091",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:свободно использовать способности и имущество для предпринимательской и иной не запрещенной законом экономической деятельности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st34:a1"
+  },
+  {
+    "id": "fact:092",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:осуществлять экономическую деятельность, направленную на монополизацию и недобросовестную конкуренцию",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st34:a2"
+  },
+  {
+    "id": "fact:093",
+    "subj": "term:property_right",
+    "pred": "pred:guarantees",
+    "obj": "value:охрану законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st35:a1"
+  },
+  {
+    "id": "fact:094",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:иметь имущество в собственности, владеть, пользоваться и распоряжаться им единолично или совместно",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st35:a2"
+  },
+  {
+    "id": "fact:095",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:лишать имущества иначе как по решению суда",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st35:a3"
+  },
+  {
+    "id": "fact:096",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:производить принудительное отчуждение имущества для государственных нужд только при условии предварительного и равноценного возмещения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st35:a3"
+  },
+  {
+    "id": "fact:097",
+    "subj": "term:property_right",
+    "pred": "pred:guarantees",
+    "obj": "value:право наследования",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st35:a4"
+  },
+  {
+    "id": "fact:098",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:иметь в частной собственности землю",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st36:a1"
+  },
+  {
+    "id": "fact:099",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:осуществлять владение, пользование и распоряжение землей без ущерба окружающей среде и правам других",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st36:a2"
+  },
+  {
+    "id": "fact:100",
+    "subj": "term:federal_law",
+    "pred": "pred:establishes",
+    "obj": "value:условия и порядок пользования землей",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st36:a3"
+  },
+  {
+    "id": "fact:101",
+    "subj": "term:labour",
+    "pred": "pred:is",
+    "obj": "value:свободным",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a1"
+  },
+  {
+    "id": "fact:102",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:свободно распоряжаться своими способностями к труду, выбирать род деятельности и профессию",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a1"
+  },
+  {
+    "id": "fact:103",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:принудительный труд",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a2"
+  },
+  {
+    "id": "fact:104",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на труд в условиях безопасности и гигиены, на вознаграждение без дискриминации и не ниже минимального размера оплаты труда",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a3"
+  },
+  {
+    "id": "fact:105",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на защиту от безработицы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a3"
+  },
+  {
+    "id": "fact:106",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на индивидуальные и коллективные трудовые споры и забастовку",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a4"
+  },
+  {
+    "id": "fact:107",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на отдых, включая установленное рабочее время, выходные, праздничные дни и оплачиваемый ежегодный отпуск",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st37:a5"
+  },
+  {
+    "id": "fact:108",
+    "subj": "term:family",
+    "pred": "pred:guarantees",
+    "obj": "value:защиту материнства и детства",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st38:a1"
+  },
+  {
+    "id": "fact:109",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:родители обязаны заботиться о детях и их воспитании",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st38:a2"
+  },
+  {
+    "id": "fact:110",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:трудоспособные дети обязаны заботиться о нетрудоспособных родителях",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st38:a3"
+  },
+  {
+    "id": "fact:111",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на социальное обеспечение по возрасту, болезни, инвалидности, потере кормильца, воспитанию детей и в иных случаях",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st39:a1"
+  },
+  {
+    "id": "fact:112",
+    "subj": "term:federal_law",
+    "pred": "pred:establishes",
+    "obj": "value:государственные пенсии и социальные пособия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st39:a2"
+  },
+  {
+    "id": "fact:113",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:поощрение добровольного социального страхования и благотворительности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st39:a3"
+  },
+  {
+    "id": "fact:114",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на жилище и защиту от произвольного лишения жилища",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st40:a1"
+  },
+  {
+    "id": "fact:115",
+    "subj": "term:state_bodies_rf",
+    "pred": "pred:must",
+    "obj": "value:поощрять жилищное строительство и создавать условия для осуществления права на жилище",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st40:a2"
+  },
+  {
+    "id": "fact:116",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:предоставлять жилище малоимущим и иным указанным в законе гражданам бесплатно или за доступную плату",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st40:a3"
+  },
+  {
+    "id": "fact:117",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на охрану здоровья и медицинскую помощь",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st41:a1"
+  },
+  {
+    "id": "fact:118",
+    "subj": "term:ru_federation",
+    "pred": "pred:provides",
+    "obj": "value:бесплатную медицинскую помощь в государственных и муниципальных учреждениях",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st41:a1"
+  },
+  {
+    "id": "fact:119",
+    "subj": "term:ru_federation",
+    "pred": "pred:establishes",
+    "obj": "value:финансирование программ охраны здоровья, развитие систем здравоохранения и поощрение деятельности по укреплению здоровья",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st41:a2"
+  },
+  {
+    "id": "fact:120",
+    "subj": "term:state_bodies_rf",
+    "pred": "pred:subject_to_liability",
+    "obj": "value:за сокрытие фактов, создающих угрозу для жизни и здоровья людей",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st41:a3"
+  },
+  {
+    "id": "fact:121",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на благоприятную окружающую среду, достоверную информацию о ее состоянии и возмещение ущерба от экологического правонарушения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st42:a1"
+  },
+  {
+    "id": "fact:122",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на образование",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st43:a1"
+  },
+  {
+    "id": "fact:123",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:общедоступность и бесплатность дошкольного, основного общего и среднего профессионального образования в государственных и муниципальных учреждениях",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st43:a2"
+  },
+  {
+    "id": "fact:124",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:бесплатно получить высшее образование на конкурсной основе в государственном или муниципальном учреждении",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st43:a3"
+  },
+  {
+    "id": "fact:125",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:обеспечивать получение детьми основного общего образования",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st43:a4"
+  },
+  {
+    "id": "fact:126",
+    "subj": "term:ru_federation",
+    "pred": "pred:establishes",
+    "obj": "value:федеральные государственные образовательные стандарты и поддерживает различные формы образования и самообразования",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st43:a5"
+  },
+  {
+    "id": "fact:127",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на свободу литературного, художественного, научного, технического и других видов творчества и преподавания",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st44:a1"
+  },
+  {
+    "id": "fact:128",
+    "subj": "term:property_right",
+    "pred": "pred:guarantees",
+    "obj": "value:охрану интеллектуальной собственности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st44:a1"
+  },
+  {
+    "id": "fact:129",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:участвовать в культурной жизни, пользоваться учреждениями культуры и иметь доступ к культурным ценностям",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st44:a2"
+  },
+  {
+    "id": "fact:130",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:заботиться о сохранении исторического и культурного наследия, беречь памятники истории и культуры",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st44:a3"
+  },
+  {
+    "id": "fact:131",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:государственную защиту прав и свобод человека и гражданина",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st45:a1"
+  },
+  {
+    "id": "fact:132",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:защищать свои права всеми способами, не запрещенными законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st45:a2"
+  },
+  {
+    "id": "fact:133",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на судебную защиту прав и свобод",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st46:a1"
+  },
+  {
+    "id": "fact:134",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:обжаловать решения и действия органов государственной власти, местного самоуправления, общественных объединений и должностных лиц в суд",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st46:a2"
+  },
+  {
+    "id": "fact:135",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:обращаться в межгосударственные органы по защите прав и свобод после исчерпания внутренних средств",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st46:a3"
+  },
+  {
+    "id": "fact:136",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на рассмотрение дела в предусмотренном суде и у судьи, к подсудности которых оно относится",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st47:a1"
+  },
+  {
+    "id": "fact:137",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на суд с участием присяжных в случаях, предусмотренных федеральным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st47:a2"
+  },
+  {
+    "id": "fact:138",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на получение квалифицированной юридической помощи",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st48:a1"
+  },
+  {
+    "id": "fact:139",
+    "subj": "term:ru_federation",
+    "pred": "pred:provides",
+    "obj": "value:бесплатную юридическую помощь в случаях, предусмотренных законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st48:a1"
+  },
+  {
+    "id": "fact:140",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:пользоваться помощью адвоката с момента задержания, заключения под стражу или предъявления обвинения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st48:a2"
+  },
+  {
+    "id": "fact:141",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:считаться невиновным до доказательства вины и вступления приговора в силу",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st49:a1"
+  },
+  {
+    "id": "fact:142",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:обязанность доказывать свою невиновность",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st49:a2"
+  },
+  {
+    "id": "fact:143",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на толкование неустранимых сомнений в свою пользу",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st49:a3"
+  },
+  {
+    "id": "fact:144",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:быть повторно осужденным за одно и то же преступление",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st50:a1"
+  },
+  {
+    "id": "fact:145",
+    "subj": "term:ru_federation",
+    "pred": "pred:forbidden",
+    "obj": "value:использовать доказательства, полученные с нарушением федерального закона",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st50:a2"
+  },
+  {
+    "id": "fact:146",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на пересмотр приговора вышестоящим судом и право просить о помиловании или смягчении наказания",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st50:a3"
+  },
+  {
+    "id": "fact:147",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:свидетельствовать против себя, супруга и близких родственников",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st51:a1"
+  },
+  {
+    "id": "fact:148",
+    "subj": "term:federal_law",
+    "pred": "pred:may_replace",
+    "obj": "value:установление иных случаев освобождения от обязанности давать свидетельские показания",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st51:a2"
+  },
+  {
+    "id": "fact:149",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:охрану прав потерпевших от преступлений и злоупотреблений властью, доступ к правосудию и компенсацию ущерба",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st52:a1"
+  },
+  {
+    "id": "fact:150",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:на возмещение государством вреда, причиненного незаконными действиями органов власти или их должностных лиц",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st53:a1"
+  },
+  {
+    "id": "fact:151",
+    "subj": "term:federal_law",
+    "pred": "pred:forbidden",
+    "obj": "value:обратную силу закона, устанавливающего или отягчающего ответственность",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st54:a1"
+  },
+  {
+    "id": "fact:152",
+    "subj": "term:every_person",
+    "pred": "pred:forbidden",
+    "obj": "value:нести ответственность за деяние, не признававшееся правонарушением",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st54:a2"
+  },
+  {
+    "id": "fact:153",
+    "subj": "term:federal_law",
+    "pred": "pred:must",
+    "obj": "value:применять более мягкий закон, принятый после правонарушения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st54:a2"
+  },
+  {
+    "id": "fact:154",
+    "subj": "term:constitution_rf",
+    "pred": "pred:recognizes",
+    "obj": "value:перечисление прав не умаляет другие общепризнанные права",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st55:a1"
+  },
+  {
+    "id": "fact:155",
+    "subj": "term:federal_law",
+    "pred": "pred:forbidden",
+    "obj": "value:издавать законы, отменяющие или умаляющие права и свободы человека и гражданина",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st55:a2"
+  },
+  {
+    "id": "fact:156",
+    "subj": "term:ru_federation",
+    "pred": "pred:may_replace",
+    "obj": "value:ограничение прав и свобод федеральным законом",
+    "qualifiers": {
+      "conds": [
+        "только в целях защиты основ конституционного строя, нравственности, здоровья, прав и законных интересов других лиц, обеспечения обороны и безопасности"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st55:a3"
+  },
+  {
+    "id": "fact:157",
+    "subj": "term:ru_federation",
+    "pred": "pred:may_replace",
+    "obj": "value:установление ограничений прав в условиях чрезвычайного положения",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с федеральным конституционным законом",
+        "с указанием пределов и срока действия"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st56:a1"
+  },
+  {
+    "id": "fact:158",
+    "subj": "term:ru_federation",
+    "pred": "pred:may_replace",
+    "obj": "value:введение чрезвычайного положения",
+    "qualifiers": {
+      "conds": [
+        "при наличии обстоятельств и в порядке, установленных федеральным конституционным законом"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st56:a2"
+  },
+  {
+    "id": "fact:159",
+    "subj": "term:constitution_rf",
+    "pred": "pred:cannot_be",
+    "obj": "value:ограничивать права, указанные в статьях 20,21,23(ч.1),24,28,34(ч.1),40(ч.1),46-54",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st56:a3"
+  },
+  {
+    "id": "fact:160",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:платить законно установленные налоги и сборы",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st57:a1"
+  },
+  {
+    "id": "fact:161",
+    "subj": "term:federal_law",
+    "pred": "pred:forbidden",
+    "obj": "value:обратную силу законов, устанавливающих новые налоги или ухудшающих положение налогоплательщиков",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st57:a2"
+  },
+  {
+    "id": "fact:162",
+    "subj": "term:every_person",
+    "pred": "pred:must",
+    "obj": "value:сохранять природу и окружающую среду, бережно относиться к природным богатствам",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st58:a1"
+  },
+  {
+    "id": "fact:163",
+    "subj": "term:citizen_rf",
+    "pred": "pred:must",
+    "obj": "value:защищать Отечество",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st59:a1"
+  },
+  {
+    "id": "fact:164",
+    "subj": "term:citizen_rf",
+    "pred": "pred:must",
+    "obj": "value:нести военную службу в соответствии с федеральным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st59:a2"
+  },
+  {
+    "id": "fact:165",
+    "subj": "term:citizen_rf",
+    "pred": "pred:may_replace",
+    "obj": "value:военную службу альтернативной гражданской службой",
+    "qualifiers": {
+      "conds": [
+        "убеждения или вероисповедание противоречит несению военной службы",
+        "иные случаи, установленные федеральным законом"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st59:a3"
+  },
+  {
+    "id": "fact:166",
+    "subj": "term:citizen_rf",
+    "pred": "pred:has_right",
+    "obj": "value:самостоятельно осуществлять права и обязанности с 18 лет",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st60:a1"
+  },
+  {
+    "id": "fact:167",
+    "subj": "term:citizen_rf",
+    "pred": "pred:cannot_be",
+    "obj": "value:выслан за пределы Российской Федерации или выдан другому государству",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st61:a1"
+  },
+  {
+    "id": "fact:168",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:гарантировать гражданам защиту и покровительство за пределами страны",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st61:a2"
+  },
+  {
+    "id": "fact:169",
+    "subj": "term:citizen_rf",
+    "pred": "pred:may_replace",
+    "obj": "value:иметь гражданство иностранного государства",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с федеральным законом или международным договором"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st62:a1"
+  },
+  {
+    "id": "fact:170",
+    "subj": "term:citizen_rf",
+    "pred": "pred:recognizes",
+    "obj": "value:наличие иностранного гражданства не умаляет права и не освобождает от обязанностей, если иное не предусмотрено",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st62:a2"
+  },
+  {
+    "id": "fact:171",
+    "subj": "term:every_person",
+    "pred": "pred:has_right",
+    "obj": "value:иностранные граждане и лица без гражданства пользуются правами и несут обязанности наравне с гражданами, кроме случаев закона или договора",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st62:a3"
+  },
+  {
+    "id": "fact:172",
+    "subj": "term:ru_federation",
+    "pred": "pred:may_replace",
+    "obj": "value:предоставлять политическое убежище иностранным гражданам и лицам без гражданства",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с общепризнанными нормами международного права"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st63:a1"
+  },
+  {
+    "id": "fact:173",
+    "subj": "term:ru_federation",
+    "pred": "pred:forbidden",
+    "obj": "value:выдавать другим государствам лиц, преследуемых за политические убеждения или действия, не признаваемые преступлением в РФ",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st63:a2"
+  },
+  {
+    "id": "fact:174",
+    "subj": "term:ru_federation",
+    "pred": "pred:may_replace",
+    "obj": "value:выдачу обвиняемых и передачу осужденных по федеральному закону или международному договору",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st63:a2"
+  },
+  {
+    "id": "fact:175",
+    "subj": "term:constitution_rf",
+    "pred": "pred:recognizes",
+    "obj": "value:положения главы 2 как основы правового статуса личности и их неизменность вне установленного порядка",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl2:st64:a1"
+  },
+  {
+    "id": "fact:176",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "term:subject_rf",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a1"
+  },
+  {
+    "id": "fact:177",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "value:Республика Адыгея (Адыгея), Республика Алтай, Республика Башкортостан, Республика Бурятия, Республика Дагестан, Донецкая Народная Республика, Республика Ингушетия, Кабардино-Балкарская Республика, Республика Калмыкия, Карачаево-Черкесская Республика, Республика Карелия, Республика Коми, Республика Крым, Луганская Народная Республика, Республика Марий Эл, Республика Мордовия, Республика Саха (Якутия), Республика Северная Осетия — Алания, Республика Татарстан (Татарстан), Республика Тыва, Удмуртская Республика, Республика Хакасия, Чеченская Республика, Чувашская Республика — Чувашия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a2"
+  },
+  {
+    "id": "fact:178",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "value:Алтайский край, Забайкальский край, Камчатский край, Краснодарский край, Красноярский край, Пермский край, Приморский край, Ставропольский край, Хабаровский край",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a3"
+  },
+  {
+    "id": "fact:179",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "value:Амурская область, Архангельская область, Астраханская область, Белгородская область, Брянская область, Владимирская область, Волгоградская область, Вологодская область, Воронежская область, Запорожская область, Ивановская область, Иркутская область, Калининградская область, Калужская область, Кемеровская область — Кузбасс, Кировская область, Костромская область, Курганская область, Курская область, Ленинградская область, Липецкая область, Магаданская область, Московская область, Мурманская область, Нижегородская область, Новгородская область, Новосибирская область, Омская область, Оренбургская область, Орловская область, Пензенская область, Псковская область, Ростовская область, Рязанская область, Самарская область, Саратовская область, Сахалинская область, Свердловская область, Смоленская область, Тамбовская область, Тверская область, Томская область, Тульская область, Тюменская область, Ульяновская область, Херсонская область, Челябинская область, Ярославская область",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a4"
+  },
+  {
+    "id": "fact:180",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "value:Москва, Санкт-Петербург, Севастополь — города федерального значения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a5"
+  },
+  {
+    "id": "fact:181",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "value:Еврейская автономная область",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a6"
+  },
+  {
+    "id": "fact:182",
+    "subj": "term:ru_federation",
+    "pred": "pred:comprises",
+    "obj": "value:Ненецкий автономный округ, Ханты-Мансийский автономный округ — Югра, Чукотский автономный округ, Ямало-Ненецкий автономный округ",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a7"
+  },
+  {
+    "id": "fact:183",
+    "subj": "value:принятие в Российскую Федерацию и образование нового субъекта",
+    "pred": "pred:must",
+    "obj": "value:осуществляться в порядке, установленном федеральным конституционным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st65:a8"
+  },
+  {
+    "id": "fact:184",
+    "subj": "term:republic_subject",
+    "pred": "pred:status_defined_by",
+    "obj": "value:Конституцией Российской Федерации и конституцией республики",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a1"
+  },
+  {
+    "id": "fact:185",
+    "subj": "term:krai_subject",
+    "pred": "pred:status_defined_by",
+    "obj": "value:Конституцией Российской Федерации и уставом края",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a2"
+  },
+  {
+    "id": "fact:186",
+    "subj": "term:oblast_subject",
+    "pred": "pred:status_defined_by",
+    "obj": "value:Конституцией Российской Федерации и уставом области",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a2"
+  },
+  {
+    "id": "fact:187",
+    "subj": "term:federal_city",
+    "pred": "pred:status_defined_by",
+    "obj": "value:Конституцией Российской Федерации и уставом города федерального значения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a2"
+  },
+  {
+    "id": "fact:188",
+    "subj": "term:autonomous_oblast",
+    "pred": "pred:status_defined_by",
+    "obj": "value:Конституцией Российской Федерации и уставом автономной области",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a2"
+  },
+  {
+    "id": "fact:189",
+    "subj": "term:autonomous_okrug",
+    "pred": "pred:status_defined_by",
+    "obj": "value:Конституцией Российской Федерации и уставом автономного округа",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a2"
+  },
+  {
+    "id": "fact:190",
+    "subj": "term:federal_law",
+    "pred": "pred:may_be_adopted",
+    "obj": "value:об автономной области или автономном округе",
+    "qualifiers": {
+      "conds": [
+        "по представлению законодательных и исполнительных органов автономной области или автономного округа"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a3"
+  },
+  {
+    "id": "fact:191",
+    "subj": "value:отношения автономных округов, входящих в состав края или области",
+    "pred": "pred:may_be_regulated",
+    "obj": "value:федеральным законом и договором между органами государственной власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a4"
+  },
+  {
+    "id": "fact:192",
+    "subj": "term:subject_rf",
+    "pred": "pred:may_be_changed",
+    "obj": "value:по взаимному согласию Российской Федерации и субъекта Российской Федерации в соответствии с федеральным конституционным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st66:a5"
+  },
+  {
+    "id": "fact:193",
+    "subj": "term:territory_rf",
+    "pred": "pred:comprises",
+    "obj": "value:территории субъектов Российской Федерации, внутренние воды, территориальное море и воздушное пространство над ними",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a1"
+  },
+  {
+    "id": "fact:194",
+    "subj": "term:federal_territory",
+    "pred": "pred:may_be_created",
+    "obj": "value:на территории Российской Федерации федеральным законом",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с федеральным законом"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a1"
+  },
+  {
+    "id": "fact:195",
+    "subj": "term:federal_law",
+    "pred": "pred:establishes",
+    "obj": "value:организацию публичной власти на федеральных территориях",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a1"
+  },
+  {
+    "id": "fact:196",
+    "subj": "term:ru_federation",
+    "pred": "pred:has_right",
+    "obj": "value:суверенные права на континентальном шельфе и в исключительной экономической зоне",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a2"
+  },
+  {
+    "id": "fact:197",
+    "subj": "term:ru_federation",
+    "pred": "pred:exercises_jurisdiction",
+    "obj": "value:континентальный шельф и исключительную экономическую зону Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a2"
+  },
+  {
+    "id": "fact:198",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:защиту своего суверенитета и территориальной целостности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a3"
+  },
+  {
+    "id": "fact:199",
+    "subj": "value:действия, направленные на отчуждение части территории Российской Федерации",
+    "pred": "pred:forbidden",
+    "obj": "-",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [
+        "делимитация, демаркация, редемаркация государственной границы Российской Федерации с сопредельными государствами"
+      ],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a3"
+  },
+  {
+    "id": "fact:200",
+    "subj": "value:призывы к действиям, направленным на отчуждение части территории Российской Федерации",
+    "pred": "pred:forbidden",
+    "obj": "-",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a3"
+  },
+  {
+    "id": "fact:201",
+    "subj": "value:границы между субъектами Российской Федерации",
+    "pred": "pred:may_be_changed",
+    "obj": "value:по взаимному согласию соответствующих субъектов",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67:a4"
+  },
+  {
+    "id": "fact:202",
+    "subj": "term:ru_federation",
+    "pred": "pred:is_successor_of",
+    "obj": "value:Союз ССР на своей территории",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a1"
+  },
+  {
+    "id": "fact:203",
+    "subj": "term:ru_federation",
+    "pred": "pred:is_successor_of",
+    "obj": "value:Союз ССР по членству в международных организациях, участию в международных договорах, обязательствам и активам за пределами территории Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a1"
+  },
+  {
+    "id": "fact:204",
+    "subj": "term:ru_federation",
+    "pred": "pred:recognizes",
+    "obj": "value:исторически сложившееся государственное единство",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a2"
+  },
+  {
+    "id": "fact:205",
+    "subj": "term:ru_federation",
+    "pred": "pred:honors",
+    "obj": "value:память защитников Отечества",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a3"
+  },
+  {
+    "id": "fact:206",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:защиту исторической правды",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a3"
+  },
+  {
+    "id": "fact:207",
+    "subj": "value:умаление значения подвига народа при защите Отечества",
+    "pred": "pred:forbidden",
+    "obj": "-",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a3"
+  },
+  {
+    "id": "fact:208",
+    "subj": "term:children",
+    "pred": "pred:is",
+    "obj": "value:важнейший приоритет государственной политики России",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a4"
+  },
+  {
+    "id": "fact:209",
+    "subj": "term:ru_federation",
+    "pred": "pred:creates_conditions",
+    "obj": "value:всестороннему духовному, нравственному, интеллектуальному и физическому развитию детей, воспитанию патриотизма, гражданственности и уважения к старшим",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a4"
+  },
+  {
+    "id": "fact:210",
+    "subj": "term:ru_federation",
+    "pred": "pred:assumes_duties",
+    "obj": "value:обязанности родителей в отношении детей, оставшихся без попечения",
+    "qualifiers": {
+      "conds": [
+        "при обеспечении приоритета семейного воспитания"
+      ],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st67_1:a4"
+  },
+  {
+    "id": "fact:211",
+    "subj": "term:state_language_rf",
+    "pred": "pred:is",
+    "obj": "term:russian_language",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a1"
+  },
+  {
+    "id": "fact:212",
+    "subj": "term:russian_language",
+    "pred": "pred:is",
+    "obj": "value:язык государствообразующего народа многонационального союза равноправных народов Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a1"
+  },
+  {
+    "id": "fact:213",
+    "subj": "term:republic_subject",
+    "pred": "pred:has_right",
+    "obj": "value:устанавливать свои государственные языки",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a2"
+  },
+  {
+    "id": "fact:214",
+    "subj": "value:государственные языки республик",
+    "pred": "pred:must",
+    "obj": "value:употребляться в органах государственной власти, местного самоуправления и государственных учреждениях республик наряду с государственным языком Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a2"
+  },
+  {
+    "id": "fact:215",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:право всех народов на сохранение родного языка и создание условий для его изучения и развития",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a3"
+  },
+  {
+    "id": "fact:216",
+    "subj": "value:культура в Российской Федерации",
+    "pred": "pred:is",
+    "obj": "value:уникальное наследие многонационального народа",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a4"
+  },
+  {
+    "id": "fact:217",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:поддержку и охрану культуры",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st68:a4"
+  },
+  {
+    "id": "fact:218",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:права коренных малочисленных народов согласно международным нормам и договорам",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st69:a1"
+  },
+  {
+    "id": "fact:219",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:защиту культурной самобытности всех народов и этнических общностей Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st69:a2"
+  },
+  {
+    "id": "fact:220",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:сохранение этнокультурного и языкового многообразия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st69:a2"
+  },
+  {
+    "id": "fact:221",
+    "subj": "term:ru_federation",
+    "pred": "pred:supports",
+    "obj": "value:соотечественников, проживающих за рубежом, в осуществлении их прав, защите интересов и сохранении общероссийской культурной идентичности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st69:a3"
+  },
+  {
+    "id": "fact:222",
+    "subj": "value:государственные флаг, герб и гимн Российской Федерации, их описание и порядок официального использования",
+    "pred": "pred:status_defined_by",
+    "obj": "term:federal_constitutional_law",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st70:a1"
+  },
+  {
+    "id": "fact:223",
+    "subj": "term:capital_rf",
+    "pred": "pred:is",
+    "obj": "value:город Москва",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st70:a2"
+  },
+  {
+    "id": "fact:224",
+    "subj": "term:capital_rf",
+    "pred": "pred:status_defined_by",
+    "obj": "term:federal_law",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st70:a2"
+  },
+  {
+    "id": "fact:225",
+    "subj": "value:место постоянного пребывания отдельных федеральных органов государственной власти",
+    "pred": "pred:may_be_changed",
+    "obj": "value:быть другим городом, определенным федеральным конституционным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st70:a2"
+  },
+  {
+    "id": "fact:226",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:принятие и изменение Конституции Российской Федерации и федеральных законов, контроль за их соблюдением",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a2"
+  },
+  {
+    "id": "fact:227",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:федеративное устройство и территория Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a3"
+  },
+  {
+    "id": "fact:228",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:регулирование и защита прав и свобод человека и гражданина, гражданство Российской Федерации, защита прав национальных меньшинств",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a4"
+  },
+  {
+    "id": "fact:229",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:организация публичной власти и формирование федеральных органов государственной власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a5"
+  },
+  {
+    "id": "fact:230",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:федеральная государственная собственность и управление ею",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a6"
+  },
+  {
+    "id": "fact:231",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:установление основ федеральной политики и федеральных программ развития, единых правовых основ систем здравоохранения, воспитания и образования",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a7"
+  },
+  {
+    "id": "fact:232",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:установление правовых основ единого рынка, финансовое, валютное, кредитное и таможенное регулирование, денежную эмиссию и основы ценовой политики",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a8"
+  },
+  {
+    "id": "fact:233",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:федеральный бюджет, федеральные налоги и сборы, федеральные фонды регионального развития",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a9"
+  },
+  {
+    "id": "fact:234",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:федеральные энергетические системы, ядерную энергетику, транспорт, связь, информацию, информационные технологии и деятельность в космосе",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a10"
+  },
+  {
+    "id": "fact:235",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:внешнюю политику, международные отношения Российской Федерации и вопросы войны и мира",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a11"
+  },
+  {
+    "id": "fact:236",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:внешнеэкономические отношения Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a12"
+  },
+  {
+    "id": "fact:237",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:оборону и безопасность, оборонное производство, оборот оружия, боеприпасов, военной техники и ядовитых веществ, обеспечение безопасности при применении информационных технологий и обороте цифровых данных",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a13"
+  },
+  {
+    "id": "fact:238",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:определение статуса и защиту государственной границы, территориального моря, воздушного пространства, исключительной экономической зоны и континентального шельфа",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a14"
+  },
+  {
+    "id": "fact:239",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:судоустройство, прокуратуру, уголовное, уголовно-исполнительное, гражданское и процессуальное законодательство, амнистию и помилование, правовое регулирование интеллектуальной собственности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a15"
+  },
+  {
+    "id": "fact:240",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:федеральное коллизионное право",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a16"
+  },
+  {
+    "id": "fact:241",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:метрологическую службу, стандарты, эталоны, метрическую систему и исчисление времени, геодезию и картографию, наименования географических объектов, метеорологическую службу, официальный статистический и бухгалтерский учет",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a17"
+  },
+  {
+    "id": "fact:242",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:государственные награды и почетные звания Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a18"
+  },
+  {
+    "id": "fact:243",
+    "subj": "term:ru_federation",
+    "pred": "pred:within_authority",
+    "obj": "value:федеральную государственную службу и установление ограничений для государственных и муниципальных должностей и счетов за рубежом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st71:a19"
+  },
+  {
+    "id": "fact:244",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:обеспечение соответствия конституций и законов субъектов Конституции Российской Федерации и федеральным законам",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a2"
+  },
+  {
+    "id": "fact:245",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:защиту прав и свобод человека и гражданина, прав национальных меньшинств, обеспечение законности, правопорядка, общественной безопасности и режима пограничных зон",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a3"
+  },
+  {
+    "id": "fact:246",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:владение, пользование и распоряжение землей, недрами, водными и другими природными ресурсами",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a4"
+  },
+  {
+    "id": "fact:247",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:разграничение государственной собственности",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a5"
+  },
+  {
+    "id": "fact:248",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:природопользование, сельское хозяйство, охрану окружающей среды и экологическую безопасность, особо охраняемые природные территории, охрану памятников истории и культуры",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a6"
+  },
+  {
+    "id": "fact:249",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:общие вопросы воспитания, образования, науки, культуры, физической культуры и спорта, молодежной политики",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a7"
+  },
+  {
+    "id": "fact:250",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:координацию вопросов здравоохранения, социальную защиту и социальное обеспечение",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a8"
+  },
+  {
+    "id": "fact:251",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:защиту семьи, материнства, отцовства и детства, защиту института брака, создание условий для воспитания детей и заботы о родителях",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a9"
+  },
+  {
+    "id": "fact:252",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:меры по борьбе с катастрофами, стихийными бедствиями, эпидемиями и ликвидацию их последствий",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a10"
+  },
+  {
+    "id": "fact:253",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:установление общих принципов налогообложения и сборов",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a11"
+  },
+  {
+    "id": "fact:254",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:административное, административно-процессуальное, трудовое, семейное, жилищное, земельное, водное, лесное законодательство, законодательство о недрах и об охране окружающей среды",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a12"
+  },
+  {
+    "id": "fact:255",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:кадры судебных и правоохранительных органов, адвокатуру и нотариат",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a13"
+  },
+  {
+    "id": "fact:256",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:защиту исконной среды обитания и традиционного образа жизни малочисленных этнических общностей",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a14"
+  },
+  {
+    "id": "fact:257",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:установление общих принципов организации системы органов государственной власти и местного самоуправления",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a15"
+  },
+  {
+    "id": "fact:258",
+    "subj": "term:ru_federation",
+    "pred": "pred:shared_authority",
+    "obj": "value:координацию международных и внешнеэкономических связей субъектов Российской Федерации и выполнение международных договоров Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a16"
+  },
+  {
+    "id": "fact:259",
+    "subj": "term:subject_rf",
+    "pred": "pred:shared_authority",
+    "obj": "value:обладает теми же предметами совместного ведения, что и перечисленные субъекты",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st72:a17"
+  },
+  {
+    "id": "fact:260",
+    "subj": "term:subject_rf",
+    "pred": "pred:has_right",
+    "obj": "value:обладать всей полнотой государственной власти вне пределов ведения Российской Федерации и совместных полномочий",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st73:a1"
+  },
+  {
+    "id": "fact:261",
+    "subj": "value:установление таможенных границ, пошлин, сборов или иных препятствий для свободного перемещения товаров, услуг и финансовых средств на территории Российской Федерации",
+    "pred": "pred:forbidden",
+    "obj": "-",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st74:a1"
+  },
+  {
+    "id": "fact:262",
+    "subj": "value:ограничения перемещения товаров и услуг",
+    "pred": "pred:may_be_adopted",
+    "obj": "value:вводиться федеральным законом для обеспечения безопасности, защиты жизни и здоровья людей, охраны природы и культурных ценностей",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st74:a2"
+  },
+  {
+    "id": "fact:263",
+    "subj": "term:currency_rf",
+    "pred": "pred:is",
+    "obj": "value:рубль",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a1"
+  },
+  {
+    "id": "fact:264",
+    "subj": "term:central_bank_rf",
+    "pred": "pred:must",
+    "obj": "value:осуществлять денежную эмиссию исключительно",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a1"
+  },
+  {
+    "id": "fact:265",
+    "subj": "value:введение и эмиссия других денег в Российской Федерации",
+    "pred": "pred:forbidden",
+    "obj": "-",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a1"
+  },
+  {
+    "id": "fact:266",
+    "subj": "term:central_bank_rf",
+    "pred": "pred:ensures",
+    "obj": "value:защиту и обеспечение устойчивости рубля независимо от других органов государственной власти",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a2"
+  },
+  {
+    "id": "fact:267",
+    "subj": "value:система налогов, взимаемых в федеральный бюджет, и общие принципы налогообложения и сборов",
+    "pred": "pred:status_defined_by",
+    "obj": "term:federal_law",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a3"
+  },
+  {
+    "id": "fact:268",
+    "subj": "value:государственные займы",
+    "pred": "pred:status_defined_by",
+    "obj": "term:federal_law",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a4"
+  },
+  {
+    "id": "fact:269",
+    "subj": "value:государственные займы",
+    "pred": "pred:must",
+    "obj": "value:размещаться на добровольной основе",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a4"
+  },
+  {
+    "id": "fact:270",
+    "subj": "term:ru_federation",
+    "pred": "pred:respects",
+    "obj": "value:труд граждан",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a5"
+  },
+  {
+    "id": "fact:271",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:минимальный размер оплаты труда не менее величины прожиточного минимума трудоспособного населения в целом по Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a5"
+  },
+  {
+    "id": "fact:272",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:формирование системы пенсионного обеспечения граждан на принципах всеобщности, справедливости и солидарности поколений",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a6"
+  },
+  {
+    "id": "fact:273",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:осуществлять индексацию пенсий не реже одного раза в год",
+    "qualifiers": {
+      "conds": [
+        "в порядке, установленном федеральным законом"
+      ],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a6"
+  },
+  {
+    "id": "fact:274",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:обязательное социальное страхование, адресную социальную поддержку граждан и индексацию социальных пособий и иных социальных выплат",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с федеральным законом"
+      ],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75:a7"
+  },
+  {
+    "id": "fact:275",
+    "subj": "term:ru_federation",
+    "pred": "pred:creates_conditions",
+    "obj": "value:устойчивому экономическому росту страны и повышению благосостояния граждан",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75_1:a1"
+  },
+  {
+    "id": "fact:276",
+    "subj": "term:ru_federation",
+    "pred": "pred:guarantees",
+    "obj": "value:защиту достоинства граждан и уважение человека труда",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75_1:a1"
+  },
+  {
+    "id": "fact:277",
+    "subj": "term:ru_federation",
+    "pred": "pred:ensures",
+    "obj": "value:сбалансированность прав и обязанностей гражданина, социальное партнерство, экономическую, политическую и социальную солидарность",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st75_1:a1"
+  },
+  {
+    "id": "fact:278",
+    "subj": "value:предметы ведения Российской Федерации",
+    "pred": "pred:must",
+    "obj": "value:регулироваться федеральными конституционными законами и федеральными законами прямого действия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a1"
+  },
+  {
+    "id": "fact:279",
+    "subj": "value:предметы совместного ведения Российской Федерации и субъектов Российской Федерации",
+    "pred": "pred:must",
+    "obj": "value:регулироваться федеральными законами и нормативными правовыми актами субъектов, принятыми в соответствии с ними",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a2"
+  },
+  {
+    "id": "fact:280",
+    "subj": "term:federal_law",
+    "pred": "pred:cannot_be",
+    "obj": "value:противоречить федеральным конституционным законам",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a3"
+  },
+  {
+    "id": "fact:281",
+    "subj": "term:subject_rf",
+    "pred": "pred:has_right",
+    "obj": "value:осуществлять собственное правовое регулирование и принимать законы и иные нормативные правовые акты вне пределов ведения Российской Федерации и совместного ведения",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a4"
+  },
+  {
+    "id": "fact:282",
+    "subj": "value:законы и иные нормативные правовые акты субъектов Российской Федерации",
+    "pred": "pred:cannot_be",
+    "obj": "value:противоречить федеральным законам, принятым по частям первой и второй статьи 76",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a5"
+  },
+  {
+    "id": "fact:283",
+    "subj": "term:federal_law",
+    "pred": "pred:prevails_over",
+    "obj": "value:иной акт, изданный в Российской Федерации, при наличии противоречия",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a5"
+  },
+  {
+    "id": "fact:284",
+    "subj": "value:нормативный правовой акт субъекта Российской Федерации, изданный в соответствии с частью четвертой статьи 76",
+    "pred": "pred:prevails_over",
+    "obj": "term:federal_law",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st76:a6"
+  },
+  {
+    "id": "fact:285",
+    "subj": "value:система органов государственной власти субъектов Российской Федерации",
+    "pred": "pred:status_defined_by",
+    "obj": "value:субъектами Российской Федерации самостоятельно в соответствии с основами конституционного строя и общими принципами, установленными федеральным законом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st77:a1"
+  },
+  {
+    "id": "fact:286",
+    "subj": "value:федеральные и региональные органы исполнительной власти",
+    "pred": "pred:is",
+    "obj": "value:единой системой исполнительной власти в пределах ведения и совместных полномочий",
+    "qualifiers": {
+      "conds": [
+        "в пределах ведения Российской Федерации и полномочий по предметам совместного ведения"
+      ],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st77:a2"
+  },
+  {
+    "id": "fact:287",
+    "subj": "term:highest_official_subject",
+    "pred": "pred:must",
+    "obj": "value:быть гражданином Российской Федерации, достигшим 30 лет, постоянно проживающим в Российской Федерации, не иметь иностранного гражданства, вида на жительство или иного документа на постоянное проживание за рубежом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st77:a3"
+  },
+  {
+    "id": "fact:288",
+    "subj": "term:highest_official_subject",
+    "pred": "pred:forbidden",
+    "obj": "value:открывать и иметь счета (вклады), хранить наличные денежные средства и ценности в иностранных банках за пределами территории Российской Федерации",
+    "qualifiers": {
+      "conds": [
+        "в порядке, установленном федеральным законом"
+      ],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st77:a3"
+  },
+  {
+    "id": "fact:289",
+    "subj": "term:federal_law",
+    "pred": "pred:may_be_adopted",
+    "obj": "value:устанавливать дополнительные требования к высшему должностному лицу субъекта Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st77:a3"
+  },
+  {
+    "id": "fact:290",
+    "subj": "term:federal_executive_bodies",
+    "pred": "pred:has_right",
+    "obj": "value:создавать свои территориальные органы и назначать соответствующих должностных лиц",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a1"
+  },
+  {
+    "id": "fact:291",
+    "subj": "term:federal_executive_bodies",
+    "pred": "pred:has_right",
+    "obj": "value:передавать органам исполнительной власти субъектов Российской Федерации осуществление части своих полномочий",
+    "qualifiers": {
+      "conds": [
+        "по соглашению с органами исполнительной власти субъектов",
+        "если это не противоречит Конституции Российской Федерации и федеральным законам"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a2"
+  },
+  {
+    "id": "fact:292",
+    "subj": "term:executive_bodies_subjects",
+    "pred": "pred:has_right",
+    "obj": "value:передавать федеральным органам исполнительной власти осуществление части своих полномочий",
+    "qualifiers": {
+      "conds": [
+        "по соглашению с федеральными органами исполнительной власти"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a3"
+  },
+  {
+    "id": "fact:293",
+    "subj": "term:president_rf",
+    "pred": "pred:ensures",
+    "obj": "value:осуществление полномочий федеральной государственной власти на всей территории Российской Федерации",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с Конституцией Российской Федерации"
+      ],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a4"
+  },
+  {
+    "id": "fact:294",
+    "subj": "term:government_rf",
+    "pred": "pred:ensures",
+    "obj": "value:осуществление полномочий федеральной государственной власти на всей территории Российской Федерации",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с Конституцией Российской Федерации"
+      ],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a4"
+  },
+  {
+    "id": "fact:295",
+    "subj": "term:head_federal_state_body",
+    "pred": "pred:must",
+    "obj": "value:быть гражданином Российской Федерации, достигшим 30 лет, не иметь иностранного гражданства, вида на жительство или иного документа на постоянное проживание за рубежом",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a5"
+  },
+  {
+    "id": "fact:296",
+    "subj": "term:head_federal_state_body",
+    "pred": "pred:forbidden",
+    "obj": "value:открывать и иметь счета (вклады), хранить наличные денежные средства и ценности в иностранных банках за пределами территории Российской Федерации",
+    "qualifiers": {
+      "conds": [
+        "в порядке, установленном федеральным законом"
+      ],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st78:a5"
+  },
+  {
+    "id": "fact:297",
+    "subj": "term:ru_federation",
+    "pred": "pred:has_right",
+    "obj": "value:участвовать в межгосударственных объединениях и передавать им часть своих полномочий",
+    "qualifiers": {
+      "conds": [
+        "в соответствии с международными договорами Российской Федерации",
+        "если это не влечет ограничения прав и свобод человека и гражданина",
+        "если это не противоречит основам конституционного строя Российской Федерации"
+      ],
+      "exceptions": [],
+      "modality": "may",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st79:a1"
+  },
+  {
+    "id": "fact:298",
+    "subj": "value:решения межгосударственных органов, принятые на основании международных договоров Российской Федерации в истолковании, противоречащем Конституции Российской Федерации",
+    "pred": "pred:forbidden",
+    "obj": "value:подлежать исполнению в Российской Федерации",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "forbidden",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st79:a1"
+  },
+  {
+    "id": "fact:299",
+    "subj": "term:ru_federation",
+    "pred": "pred:must",
+    "obj": "value:принимать меры по поддержанию и укреплению международного мира и безопасности, обеспечению мирного сосуществования государств и народов, недопущению вмешательства во внутренние дела государства",
+    "qualifiers": {
+      "conds": [],
+      "exceptions": [],
+      "modality": "must",
+      "effective": {
+        "from": null,
+        "to": null
+      }
+    },
+    "source": "KONST:gl3:st79_1:a1"
+  }
 ]

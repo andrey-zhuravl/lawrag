@@ -1,17 +1,218 @@
 [
-  {"surface":"российская федерация","maps_to":"term:ru_federation"},
-  {"surface":"россия","maps_to":"term:ru_federation"},
-  {"surface":"конституция российской федерации","maps_to":"term:constitution_rf"},
-  {"surface":"федеральный закон","maps_to":"term:federal_law"},
-  {"surface":"международный договор","maps_to":"term:international_treaty_rf"},
-  {"surface":"органы государственной власти","maps_to":"term:state_bodies_rf"},
-  {"surface":"местное самоуправление","maps_to":"term:local_self_gov"},
-  {"surface":"гражданин российской федерации","maps_to":"term:citizen_rf"},
-  {"surface":"каждый","maps_to":"term:every_person"},
-  {"surface":"имеет право","maps_to":"pred:has_right"},
-  {"surface":"обязан","maps_to":"pred:must"},
-  {"surface":"запрещается","maps_to":"pred:forbidden"},
-  {"surface":"гарантируется","maps_to":"pred:guarantees"},
-  {"surface":"признается","maps_to":"pred:recognizes"},
-  {"surface":"имеет высшую юридическую силу","maps_to":"pred:guarantees"}
+  {
+    "surface": "российская федерация",
+    "maps_to": "term:ru_federation"
+  },
+  {
+    "surface": "россия",
+    "maps_to": "term:ru_federation"
+  },
+  {
+    "surface": "конституция российской федерации",
+    "maps_to": "term:constitution_rf"
+  },
+  {
+    "surface": "федеральный закон",
+    "maps_to": "term:federal_law"
+  },
+  {
+    "surface": "международный договор",
+    "maps_to": "term:international_treaty_rf"
+  },
+  {
+    "surface": "органы государственной власти",
+    "maps_to": "term:state_bodies_rf"
+  },
+  {
+    "surface": "местное самоуправление",
+    "maps_to": "term:local_self_gov"
+  },
+  {
+    "surface": "гражданин российской федерации",
+    "maps_to": "term:citizen_rf"
+  },
+  {
+    "surface": "каждый",
+    "maps_to": "term:every_person"
+  },
+  {
+    "surface": "имеет право",
+    "maps_to": "pred:has_right"
+  },
+  {
+    "surface": "обязан",
+    "maps_to": "pred:must"
+  },
+  {
+    "surface": "запрещается",
+    "maps_to": "pred:forbidden"
+  },
+  {
+    "surface": "гарантируется",
+    "maps_to": "pred:guarantees"
+  },
+  {
+    "surface": "признается",
+    "maps_to": "pred:recognizes"
+  },
+  {
+    "surface": "имеет высшую юридическую силу",
+    "maps_to": "pred:guarantees"
+  },
+  {
+    "surface": "территория российской федерации",
+    "maps_to": "term:territory_rf"
+  },
+  {
+    "surface": "федеральная территория",
+    "maps_to": "term:federal_territory"
+  },
+  {
+    "surface": "республика",
+    "maps_to": "term:republic_subject"
+  },
+  {
+    "surface": "край",
+    "maps_to": "term:krai_subject"
+  },
+  {
+    "surface": "область",
+    "maps_to": "term:oblast_subject"
+  },
+  {
+    "surface": "город федерального значения",
+    "maps_to": "term:federal_city"
+  },
+  {
+    "surface": "автономная область",
+    "maps_to": "term:autonomous_oblast"
+  },
+  {
+    "surface": "автономный округ",
+    "maps_to": "term:autonomous_okrug"
+  },
+  {
+    "surface": "континентальный шельф",
+    "maps_to": "term:continental_shelf_rf"
+  },
+  {
+    "surface": "исключительная экономическая зона",
+    "maps_to": "term:eez_rf"
+  },
+  {
+    "surface": "русский язык",
+    "maps_to": "term:russian_language"
+  },
+  {
+    "surface": "государственный язык",
+    "maps_to": "term:state_language_rf"
+  },
+  {
+    "surface": "коренные малочисленные народы",
+    "maps_to": "term:indigenous_minorities"
+  },
+  {
+    "surface": "федеральный государственный орган",
+    "maps_to": "term:federal_state_body"
+  },
+  {
+    "surface": "дети",
+    "maps_to": "term:children"
+  },
+  {
+    "surface": "федеральный конституционный закон",
+    "maps_to": "term:federal_constitutional_law"
+  },
+  {
+    "surface": "столица российской федерации",
+    "maps_to": "term:capital_rf"
+  },
+  {
+    "surface": "денежная единица",
+    "maps_to": "term:currency_rf"
+  },
+  {
+    "surface": "центральный банк российской федерации",
+    "maps_to": "term:central_bank_rf"
+  },
+  {
+    "surface": "высшее должностное лицо субъекта",
+    "maps_to": "term:highest_official_subject"
+  },
+  {
+    "surface": "федеральные органы исполнительной власти",
+    "maps_to": "term:federal_executive_bodies"
+  },
+  {
+    "surface": "органы исполнительной власти субъектов",
+    "maps_to": "term:executive_bodies_subjects"
+  },
+  {
+    "surface": "руководитель федерального государственного органа",
+    "maps_to": "term:head_federal_state_body"
+  },
+  {
+    "surface": "включает в себя",
+    "maps_to": "pred:comprises"
+  },
+  {
+    "surface": "определяется",
+    "maps_to": "pred:status_defined_by"
+  },
+  {
+    "surface": "может быть принят",
+    "maps_to": "pred:may_be_adopted"
+  },
+  {
+    "surface": "могут регулироваться",
+    "maps_to": "pred:may_be_regulated"
+  },
+  {
+    "surface": "может быть изменен",
+    "maps_to": "pred:may_be_changed"
+  },
+  {
+    "surface": "могут быть созданы",
+    "maps_to": "pred:may_be_created"
+  },
+  {
+    "surface": "является правопреемником",
+    "maps_to": "pred:is_successor_of"
+  },
+  {
+    "surface": "создает условия",
+    "maps_to": "pred:creates_conditions"
+  },
+  {
+    "surface": "берет на себя обязанности",
+    "maps_to": "pred:assumes_duties"
+  },
+  {
+    "surface": "оказывает поддержку",
+    "maps_to": "pred:supports"
+  },
+  {
+    "surface": "уважает",
+    "maps_to": "pred:respects"
+  },
+  {
+    "surface": "осуществляет юрисдикцию",
+    "maps_to": "pred:exercises_jurisdiction"
+  },
+  {
+    "surface": "чтит память",
+    "maps_to": "pred:honors"
+  },
+  {
+    "surface": "в ведении",
+    "maps_to": "pred:within_authority"
+  },
+  {
+    "surface": "в совместном ведении",
+    "maps_to": "pred:shared_authority"
+  },
+  {
+    "surface": "действует",
+    "maps_to": "pred:prevails_over"
+  }
 ]
