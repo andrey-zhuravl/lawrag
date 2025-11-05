@@ -1,0 +1,17 @@
+[
+  {"surface":"российская федерация","maps_to":"term:ru_federation"},
+  {"surface":"россия","maps_to":"term:ru_federation"},
+  {"surface":"конституция российской федерации","maps_to":"term:constitution_rf"},
+  {"surface":"федеральный закон","maps_to":"term:federal_law"},
+  {"surface":"международный договор","maps_to":"term:international_treaty_rf"},
+  {"surface":"органы государственной власти","maps_to":"term:state_bodies_rf"},
+  {"surface":"местное самоуправление","maps_to":"term:local_self_gov"},
+  {"surface":"гражданин российской федерации","maps_to":"term:citizen_rf"},
+  {"surface":"каждый","maps_to":"term:every_person"},
+  {"surface":"имеет право","maps_to":"pred:has_right"},
+  {"surface":"обязан","maps_to":"pred:must"},
+  {"surface":"запрещается","maps_to":"pred:forbidden"},
+  {"surface":"гарантируется","maps_to":"pred:guarantees"},
+  {"surface":"признается","maps_to":"pred:recognizes"},
+  {"surface":"имеет высшую юридическую силу","maps_to":"pred:guarantees"}
+]

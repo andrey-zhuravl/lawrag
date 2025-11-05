@@ -1,0 +1,18 @@
+[
+  {"from":"KONST:gl2:st56:a3","to":"Статья 20","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 21","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 23 (часть 1)","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 24","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 28","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 34 (часть 1)","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 40 (часть 1)","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 46","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 47","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 48","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 49","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 50","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 51","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 52","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 53","rel":"refers_to","hypothesized":false},
+  {"from":"KONST:gl2:st56:a3","to":"Статья 54","rel":"refers_to","hypothesized":false}
+]

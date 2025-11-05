@@ -1,0 +1,128 @@
+[
+  {
+    "id": "pred:is",
+    "roles": ["SUBJ", "OBJ"],
+    "type": "constitutive",
+    "negatable": false,
+    "examples": [
+      {"by": "KONST:gl1:st1:a1", "surface": "есть демократическое федеративное правовое государство"}
+    ]
+  },
+  {
+    "id": "pred:equivalent",
+    "roles": ["SUBJ", "OBJ"],
+    "type": "constitutive",
+    "negatable": false,
+    "examples": [
+      {"by": "KONST:gl1:st1:a2", "surface": "равнозначны"}
+    ]
+  },
+  {
+    "id": "pred:recognizes",
+    "roles": ["SUBJ", "OBJ"],
+    "type": "constitutive",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl1:st13:a1", "surface": "признается идеологическое многообразие"}
+    ]
+  },
+  {
+    "id": "pred:guarantees",
+    "roles": ["SUBJ", "OBJ"],
+    "type": "constitutive",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl2:st45:a1", "surface": "гарантируется государственная защита прав и свобод"}
+    ]
+  },
+  {
+    "id": "pred:ensures",
+    "roles": ["SUBJ", "OBJ"],
+    "type": "procedural",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl1:st4:a3", "surface": "обеспечивает целостность и неприкосновенность"}
+    ]
+  },
+  {
+    "id": "pred:has_right",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "deontic",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl2:st20:a1", "surface": "имеет право на жизнь"}
+    ]
+  },
+  {
+    "id": "pred:must",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "deontic",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl1:st2:a2", "surface": "обязанность государства"}
+    ]
+  },
+  {
+    "id": "pred:forbidden",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "deontic",
+    "negatable": false,
+    "examples": [
+      {"by": "KONST:gl2:st37:a2", "surface": "Принудительный труд запрещен"}
+    ]
+  },
+  {
+    "id": "pred:subject_to_liability",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "liability",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl2:st41:a3", "surface": "влечет за собой ответственность"}
+    ]
+  },
+  {
+    "id": "pred:provides",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "procedural",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl2:st41:a1", "surface": "оказывается бесплатно"}
+    ]
+  },
+  {
+    "id": "pred:establishes",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "procedural",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl2:st43:a5", "surface": "устанавливает федеральные государственные образовательные стандарты"}
+    ]
+  },
+  {
+    "id": "pred:may_replace",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "deontic",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl2:st59:a3", "surface": "имеет право на замену ее альтернативной гражданской службой"}
+    ]
+  },
+  {
+    "id": "pred:cannot_be",
+    "roles": ["SUBJ", "OBJ", "COND"],
+    "type": "deontic",
+    "negatable": false,
+    "examples": [
+      {"by": "KONST:gl2:st61:a1", "surface": "не может быть выслан"}
+    ]
+  },
+  {
+    "id": "pred:applies_to",
+    "roles": ["SUBJ", "OBJ"],
+    "type": "procedural",
+    "negatable": true,
+    "examples": [
+      {"by": "KONST:gl1:st15:a1", "surface": "применяется на всей территории"}
+    ]
+  }
+]
